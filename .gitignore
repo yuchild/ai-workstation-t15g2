@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+environments/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local models and caches
+*.gguf
+*.safetensors
+models/cache/
+models/weights/
+
+# Local outputs
+logs/
+benchmarks/results/
+# Agent-generated workspace
+agent_workspace/
